@@ -1,0 +1,147 @@
+* {
+  margin: 0;
+  padding: 0;
+  outline: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background: #1E2127;
+  color: #eeeeee;
+  font-family: sans-serif;
+  -webkit-font-smoothing: antialiased;
+}
+
+li {
+  list-style-type: none;
+}
+
+.container {
+  display: flex;
+  flex: 1;
+  flex-direction: column;
+  justify-content: space-between;
+
+  width: 100%;
+  max-width: 1024px;
+  margin: 0 auto;
+  padding: 20px 0;
+}
+
+.info-section {
+  display: flex;
+  flex: 1;
+  flex-direction: column;
+  background-color: #292a2d;
+  border-radius: 5px;
+  padding: 10px 10px;
+  margin: 0 10px 10px;
+}
+
+.info-section p {
+  margin: 10px 0;
+  color: #999999;
+}
+
+.info-section a {
+  text-decoration: none;
+  color: #999999;
+}
+
+.info-section a:visited {
+  color: #999999;
+}
+
+.info-section button {
+  background-color: #04d361;
+  color: #292a2d;
+  font-size: 32px;
+  font-weight: bold;
+  border-radius: 3px;
+  border: none;
+  height: 48px;
+  padding: 0 20px;
+  margin: 15px 0 0;
+  align-self: center;
+}
+
+.info-section button:hover {
+  background-color: #04d361;
+  cursor: pointer;
+  opacity: 0.8;
+}
+
+.box-section {
+  display: flex;
+  flex: 1;
+  justify-content: space-between;
+  margin: 10px 0;
+}
+
+.box {
+  display: flex;
+  flex: 1;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  height: 320px;
+  margin: 0 10px;
+  background-color: #292a2d;
+  border-radius: 5px;
+  padding: 20px;
+  overflow-y: auto;
+}
+
+.box-content {
+  display: flex;
+  flex: 1;
+  width: 100%;
+  justify-content: center;
+  margin: 10px 0;
+  border-top: 1px solid #04d361;
+  padding: 10px 0;
+}
+
+.box-content-center {
+  align-items: center;
+}
+
+.box-content span {
+  color: #04d361;
+  font-size: 42px;
+  font-weight: bold;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  font-size: 0.8rem;
+}
+
+table th {
+  text-align: left;
+}
+
+table th {
+  border-bottom: 0.5px solid #eeeeee;
+}
+
+th, td {
+  padding: 10px;
+}
+
+::-webkit-scrollbar{width:10px}
+::-webkit-scrollbar-track{background:#292a2d; border-radius:0px}
+::-webkit-scrollbar-thumb{background:#04d361; border-radius:0px}
+
+.loading {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  background-color: #000000;
+  opacity: 0.9;
+}
